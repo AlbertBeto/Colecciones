@@ -12,6 +12,7 @@ mio.imprimirArrayList();
         Contacto jar = new Contacto("Jarrr", "22223333444");
         Contacto per = new Contacto("Per", "414444545");
         Contacto bal = new Contacto("Bal", "2222555454545");
+
         mio.addNewContact(jar);
         mio.addNewContact(per);
         mio.imprimirArrayList();

@@ -10,12 +10,8 @@ public class TelefonoMovil {
 
     public TelefonoMovil(String myNumber) {
         this.myNumber = myNumber;
-        Contacto myTelephone = new Contacto("My Telephone",myNumber);
-        Contacto beto = new Contacto("Beto","666999888");
         myContacts = new ArrayList<Contacto>();
-        myContacts.add(myTelephone);
-        myContacts.add(beto);
-    }
+            }
 
     public boolean addNewContact(Contacto contacto){
 
