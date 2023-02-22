@@ -17,11 +17,11 @@ mio.imprimirArrayList();
         mio.addNewContact(per);
         mio.imprimirArrayList();
         mio.addNewContact(jar);
-        mio.findContact(jar);
+
         mio.updateContact(jar,bal);
         mio.addNewContact(jar);
         mio.removeContact(jar);
-        mio.findContact("Beto");
+
         mio.queryContact("Beto");
         mio.imprimirContactos();
 

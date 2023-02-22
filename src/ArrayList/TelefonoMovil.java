@@ -51,7 +51,7 @@ if(findContact(viejo)==-1){
         }
     }
 
-    public int findContact(Contacto contacto){
+    private int findContact(Contacto contacto){
         int existe=myContacts.indexOf(contacto);
         if(existe>=0){
             return existe;
@@ -60,7 +60,7 @@ if(findContact(viejo)==-1){
         }
     }
 
-    public int findContact(String nombre){
+    private int findContact(String nombre){
              for (int i =0;i<myContacts.size();i++){
             if(nombre.equals(myContacts.get(i).getName())){
                 return i;
