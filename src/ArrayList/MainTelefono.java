@@ -31,6 +31,22 @@ public class MainTelefono {
         miTelefono.addNewContact(alfa);
     }
 
+    public static void actualizarContacto(){
+        System.out.println("Introduce el nombre del contacto a modificar:");
+        sc.nextLine();
+        String nombre=sc.nextLine();
+        if (miTelefono.queryContact(nombre)!=null){
+            System.out.println("Introduce el nuevo nombre del contacto:");
+            sc.nextLine();
+            String neoNombre=sc.nextLine();
+            System.out.println("Introduce el nuevo número del contacto:");
+            String telefono=sc.nextLine();
+            Contacto alfa = new Contacto(neoNombre,telefono);
+            // Aqui nos hemos quedado.... mañana mas, ahora dormir.
+            miTelefono.updateContact()
+        }
+    }
+
 
     public static void main(String[] args) {
 
@@ -56,6 +72,7 @@ while (continuar==true){
             break;
 
         case 3:
+
 
      //switch
     }

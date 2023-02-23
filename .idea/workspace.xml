@@ -7,8 +7,6 @@
     <list default="true" id="24147556-feac-48f2-91fd-9a1b879bf8c2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ArrayList/MainTelefono.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayList/MainTelefono.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayList/TelefonoMovil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayList/TelefonoMovil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677108823139</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Creado menus, while y switch hasta 2. Confirmado el add de contactos. Corregido los metodos de add para que no permita repetidos de nombre.">
+      <created>1677112735908</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677112735908</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -117,6 +122,7 @@
     <MESSAGE value="Creados todos los metodos de TelefonoMovil y de contacto." />
     <MESSAGE value="Modificado el constructor del TelefonoMovil para aligerar" />
     <MESSAGE value="Cambio a privado los metodos de busqueda de contactos entro de TelefonoMovil." />
-    <option name="LAST_COMMIT_MESSAGE" value="Cambio a privado los metodos de busqueda de contactos entro de TelefonoMovil." />
+    <MESSAGE value="Creado menus, while y switch hasta 2. Confirmado el add de contactos. Corregido los metodos de add para que no permita repetidos de nombre." />
+    <option name="LAST_COMMIT_MESSAGE" value="Creado menus, while y switch hasta 2. Confirmado el add de contactos. Corregido los metodos de add para que no permita repetidos de nombre." />
   </component>
 </project>
