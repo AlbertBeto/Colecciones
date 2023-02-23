@@ -15,6 +15,7 @@ mio.imprimirArrayList();
 
         mio.addNewContact(jar);
         mio.addNewContact(per);
+        mio.addNewContact(per);
         mio.imprimirArrayList();
         mio.addNewContact(jar);
 

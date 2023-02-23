@@ -14,8 +14,7 @@ public class TelefonoMovil {
             }
 
     public boolean addNewContact(Contacto contacto){
-
-        if(myContacts.contains(contacto)){
+        if(findContact(contacto.getName())>=0){
             System.out.println("El contacto ya existe y no se ha creado.");
             return false;
         }else{
