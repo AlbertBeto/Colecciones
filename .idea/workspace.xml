@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24147556-feac-48f2-91fd-9a1b879bf8c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Colecciones.iml" afterDir="false" />
+    <list default="true" id="24147556-feac-48f2-91fd-9a1b879bf8c2" name="Changes" comment="Acabado las opciones del menu. &#10;Faltaria todo el tema del try and catch.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ArrayList/MainTelefono.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayList/MainTelefono.java" afterDir="false" />
     </list>
@@ -122,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677114058161</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Actualizar Contacto acabado">
+      <created>1677193302127</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677193302131</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -133,6 +138,9 @@
     <MESSAGE value="Cambio a privado los metodos de busqueda de contactos entro de TelefonoMovil." />
     <MESSAGE value="Creado menus, while y switch hasta 2. Confirmado el add de contactos. Corregido los metodos de add para que no permita repetidos de nombre." />
     <MESSAGE value="TRabajando en actualizar contacto pero me quedo dormido delante el teclado. A dormir!!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="TRabajando en actualizar contacto pero me quedo dormido delante el teclado. A dormir!!!" />
+    <MESSAGE value="Actualizar Contacto acabado" />
+    <MESSAGE value="Borrar contacto realizado" />
+    <MESSAGE value="Acabado las opciones del menu. &#10;Faltaria todo el tema del try and catch." />
+    <option name="LAST_COMMIT_MESSAGE" value="Acabado las opciones del menu. &#10;Faltaria todo el tema del try and catch." />
   </component>
 </project>

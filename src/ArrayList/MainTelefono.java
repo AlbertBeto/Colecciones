@@ -46,7 +46,21 @@ public class MainTelefono {
         }
     }
 
+    public static void eliminarContacto(){
+        System.out.println("Introduce el nombre del contacto a eliminar:");
+        sc.nextLine();
+        String nombre=sc.nextLine();
+        Contacto posicion = miTelefono.queryContact(nombre);
+        miTelefono.removeContact(posicion);
+    }
 
+    public static void buscarContacto(){
+        System.out.println("Introduce el nombre del contacto a buscar:");
+        sc.nextLine();
+        String nombre=sc.nextLine();
+        Contacto posicion = miTelefono.queryContact(nombre);
+        System.out.println("Contacto: "+posicion.getName()+" --> "+posicion.getPhoneNumber());
+    }
     public static void main(String[] args) {
 
 boolean continuar = true;
@@ -74,19 +88,23 @@ while (continuar==true){
             actualizarContacto();
             break;
 
+        case 4:
+            eliminarContacto();
+            break;
+
+        case 5:
+            buscarContacto();
+            break;
+
+        case 6:
+            imprimirMenu();
+            break;
+
      //switch
     }
     //while
 }
-
-
-
-
-
         //main
     }
-
-
-
     //class
 }
