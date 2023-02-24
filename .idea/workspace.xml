@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24147556-feac-48f2-91fd-9a1b879bf8c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/Album.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/Cancion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/MainLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/MainLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/MainLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677235578022</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Ejercicio LinkedList falta el menu">
+      <created>1677242968069</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1677242968069</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -165,6 +170,7 @@
     <MESSAGE value="Borrar contacto realizado" />
     <MESSAGE value="Acabado las opciones del menu. &#10;Faltaria todo el tema del try and catch." />
     <MESSAGE value="Todo acabado. Problemas con el github" />
-    <option name="LAST_COMMIT_MESSAGE" value="Todo acabado. Problemas con el github" />
+    <MESSAGE value="Ejercicio LinkedList falta el menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio LinkedList falta el menu" />
   </component>
 </project>

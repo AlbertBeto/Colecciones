@@ -13,6 +13,22 @@ public class MainLinkedList {
         System.out.println("-----");
     }
 
+    public static void imprimirMenu(){
+        System.out.println("----- MENU PRINCIPAL -----");
+        System.out.println("0  --  Salir de la lista de reproducción");
+        System.out.println("1  --  Reproducir siguiente canción en la lista");
+        System.out.println("2  --  Reproducir la canción previa de la lista");
+        System.out.println("3  --  Repetir la canción actual");
+        System.out.println("4  --  Imprimir la lista de canciones en la playlist");
+        System.out.println("5  --  Volver a imprimir el menú");
+        System.out.println("6  --  Eliminar canción actual de la lista");
+    }
+
+    public static void play(){
+
+
+    }
+
     public static void main(String[] args) {
 
         Album vietnamSongs = new Album("White Rabbit","Jefferson Airplane");
@@ -43,6 +59,8 @@ public class MainLinkedList {
 
 imprimeListaRepro(listaReproduccion);
 
+
+imprimirMenu();
 
 
 
