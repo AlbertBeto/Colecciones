@@ -16,7 +16,7 @@ public class Cancion {
 
     @Override
     public String toString() {
-        return titulo + ": " + duracion;
+        return "- "+ titulo + ": " + duracion;
     }
 
     //class

@@ -2,8 +2,10 @@ package LinkedList;
 
 import java.util.Iterator;
 import java.util.LinkedList;
+import java.util.Scanner;
 
 public class MainLinkedList {
+
 
     public static void imprimeListaRepro(LinkedList<Cancion> listaReproduccion) {
         Iterator<Cancion> it = listaReproduccion.iterator();
@@ -30,39 +32,75 @@ public class MainLinkedList {
     }
 
     public static void main(String[] args) {
-
-        Album vietnamSongs = new Album("White Rabbit","Jefferson Airplane");
-
+        Scanner sc = new Scanner(System.in);
+        Album vietnamSongs = new Album("Vietnam Songs","Multiples");
         Album albert2 = new Album("Albert", "Beto");
 
 
-        Cancion aa = new Cancion("Beto Wins", 12.03);
-        Cancion ab = new Cancion("Charly Wins", 4.03);
+        vietnamSongs.addSong("White Rabbit",3.55);
+        vietnamSongs.addSong("House Of The Rising Sun", 4.31);
+        vietnamSongs.addSong("Fortunate son", 2.17);
 
-        Cancion ac = new Cancion("Mai Wins", 2.22);
-        Cancion ad = new Cancion("Like Rolling Stone", 1.32);
-        Cancion ae = new Cancion("All toguether", 4.53);
-
-        vietnamSongs.canciones.add(aa);
-        vietnamSongs.canciones.add(ab);
-        albert2.canciones.add(ac);
-        albert2.canciones.add(ad);
-        albert2.canciones.add(ae);
-
-        System.out.println(vietnamSongs.canciones.get(1).toString());
+        albert2.addSong("Punk Rock Loser",12.00);
+        albert2.addSong("Smoko", 2.22);
+        albert2.addSong("Jolly F*cker", 1.32);
 
 
         LinkedList<Cancion> listaReproduccion = new LinkedList<Cancion>();
 
+
         albert2.addToPlayList(1,listaReproduccion);
-        vietnamSongs.addToPlayList("Charly Wins",listaReproduccion);
+        albert2.addToPlayList(2,listaReproduccion);
+        albert2.addToPlayList(3,listaReproduccion);
 
-imprimeListaRepro(listaReproduccion);
+        vietnamSongs.addToPlayList("Punk Rock Loser",listaReproduccion);
+        vietnamSongs.addToPlayList("Smoko",listaReproduccion);
+        vietnamSongs.addToPlayList("Jolly F*cker",listaReproduccion);
 
 
-imprimirMenu();
 
 
+        boolean continuar = true;
+        int opcion=0;
+        imprimirMenu();
+
+        while (continuar==true){
+            System.out.println("Elige una opción: ");
+            opcion = sc.nextInt();
+
+            switch (opcion) {
+                case 0:
+                    continuar=false;
+                    break;
+
+                case 1:
+
+                    break;
+
+                case 2:
+
+                    break;
+
+                case 3:
+
+                    break;
+
+                case 4:
+                    imprimeListaRepro(listaReproduccion);
+                    break;
+
+                case 5:
+                    imprimirMenu();
+                    break;
+
+                case 6:
+
+                    break;
+
+                //switch
+            }
+            //while
+        }
 
 
 

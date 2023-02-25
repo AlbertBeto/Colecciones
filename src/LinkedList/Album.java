@@ -28,6 +28,16 @@ public class Album {
         return null;
     }
 
+    public boolean addSong(String titulo, double duracion){
+        if(findsong(titulo)!=null) {
+            return false;
+        }else{
+            Cancion aa = new Cancion(titulo, duracion);
+            canciones.add(aa);
+            return true;
+        }
+    }
+
     public boolean addToPlayList(int pista, LinkedList<Cancion> listaRepro){
        if((pista-1)<0 || (pista-1)>canciones.size()){
            System.out.println("No existe");
