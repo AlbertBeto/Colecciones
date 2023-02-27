@@ -2,6 +2,7 @@ package LinkedList;
 
 import java.util.Iterator;
 import java.util.LinkedList;
+import java.util.ListIterator;
 import java.util.Scanner;
 
 public class MainLinkedList {
@@ -26,22 +27,19 @@ public class MainLinkedList {
         System.out.println("6  --  Eliminar canción actual de la lista");
     }
 
-    public static void play(){
 
-
-    }
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        Album vietnamSongs = new Album("Vietnam Songs","Multiples");
+
+        Album vietnamSongs = new Album("Vietnam Songs", "Multiples");
         Album albert2 = new Album("Albert", "Beto");
 
 
-        vietnamSongs.addSong("White Rabbit",3.55);
+        vietnamSongs.addSong("White Rabbit", 3.55);
         vietnamSongs.addSong("House Of The Rising Sun", 4.31);
         vietnamSongs.addSong("Fortunate son", 2.17);
 
-        albert2.addSong("Punk Rock Loser",12.00);
+        albert2.addSong("Punk Rock Loser", 12.00);
         albert2.addSong("Smoko", 2.22);
         albert2.addSong("Jolly F*cker", 1.32);
 
@@ -49,64 +47,113 @@ public class MainLinkedList {
         LinkedList<Cancion> listaReproduccion = new LinkedList<Cancion>();
 
 
-        albert2.addToPlayList(1,listaReproduccion);
-        albert2.addToPlayList(2,listaReproduccion);
-        albert2.addToPlayList(3,listaReproduccion);
+        vietnamSongs.addToPlayList(1, listaReproduccion);
+        vietnamSongs.addToPlayList(2, listaReproduccion);
+        vietnamSongs.addToPlayList(3, listaReproduccion);
 
-        vietnamSongs.addToPlayList("Punk Rock Loser",listaReproduccion);
-        vietnamSongs.addToPlayList("Smoko",listaReproduccion);
-        vietnamSongs.addToPlayList("Jolly F*cker",listaReproduccion);
+        albert2.addToPlayList("Punk Rock Loser", listaReproduccion);
+        albert2.addToPlayList("Smoko", listaReproduccion);
+        albert2.addToPlayList("Jolly F*cker", listaReproduccion);
 
-
-
+//Aqui iría el statico....
 
         boolean continuar = true;
-        int opcion=0;
+        int opcion = 0;
+        int numCancion=1;
+        boolean haciaAdelante=true;
+        Scanner sc = new Scanner(System.in);
+        ListIterator<Cancion> iteradorLista = listaReproduccion.listIterator();
         imprimirMenu();
-
-        while (continuar==true){
+        System.out.println("Escuchando " + numCancion +" "+ iteradorLista.next());
+        while (continuar == true) {
             System.out.println("Elige una opción: ");
             opcion = sc.nextInt();
 
             switch (opcion) {
                 case 0:
-                    continuar=false;
+                    System.out.println("Gracias por usar el reproductor.");
+                    continuar = false;
                     break;
 
                 case 1:
 
-                    break;
+            if (haciaAdelante==false) {
 
-                case 2:
-
-                    break;
-
-                case 3:
-
-                    break;
-
-                case 4:
-                    imprimeListaRepro(listaReproduccion);
-                    break;
-
-                case 5:
-                    imprimirMenu();
-                    break;
-
-                case 6:
-
-                    break;
-
-                //switch
+                if (iteradorLista.hasNext()){
+                iteradorLista.next();}
+                haciaAdelante=true;
             }
-            //while
-        }
+                    if (iteradorLista.hasNext()) {
+                        numCancion+=1;
+                System.out.println("Escuchando " + numCancion +" "+ iteradorLista.next());
+            } else {
+                numCancion= listaReproduccion.size();
+                System.out.println("No hay mas canciones a continuación.");
+            }
+            break;
+
+                    case 2:
+                        if (haciaAdelante==true) {
+
+                            if (iteradorLista.hasPrevious()){
+                            iteradorLista.previous();}
+                            haciaAdelante=false;
+                        }
+                        if (iteradorLista.hasPrevious()){
+                            numCancion-=1;
+                            System.out.println("Escuchando " + numCancion +" "+ iteradorLista.previous());
+                        }else {
+                            numCancion=1;
+                        System.out.println("Esta es la primera canción, no hay anteriores.");
+                            haciaAdelante=true;
+                        }
+                        break;
+
+                    case 3:
+                        System.out.println(iteradorLista.getClass());
+                        break;
+
+                    case 4:
+                        imprimeListaRepro(listaReproduccion);
+                        break;
+
+                    case 5:
+                        imprimirMenu();
+                        break;
+
+                    case 6:
+
+
+                        if (iteradorLista.hasNext()) {
+                            listaReproduccion.remove(numCancion-1);
+                            System.out.println("Escuchando " + numCancion +" "+ listaReproduccion.get(numCancion-1));
+                        } else {
+                            listaReproduccion.remove(numCancion-1);
+                            System.out.println("Escuchando " + numCancion +" "+ iteradorLista.previous());
+                        }
+                        break;
+
+                    default:
+                        System.out.println("Ha introducido un a opción equivocada.");
+                        System.out.println("Por favor, vuelva a intentarlo.");
+                        System.out.println("Recuerde, opción 5 para imprimir de nuevo el menu.");
+
+                    //switch
+                }
+                //while
+            }
+
+
+
+
 
 
 
 
         //main
     }
+
+
 
 
 
