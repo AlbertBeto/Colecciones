@@ -81,12 +81,13 @@ if(repetir==true && iteradorLista.hasPrevious()) {
     repetir=false;
     iteradorLista.previous();
     numCancion-=1;
-}else{
+}else if(repetir==true && !iteradorLista.hasPrevious()){
     repetir=false;
-    iteradorLista
-        numCancion-=1;
-
+    iteradorLista.next();
+        System.out.println("Escuchando " + numCancion + " " + iteradorLista.previous());
+    break;
 }
+
     if (haciaAdelante == false) {
 
         if (iteradorLista.hasNext()) {
@@ -105,6 +106,19 @@ if(repetir==true && iteradorLista.hasPrevious()) {
             break;
 
                     case 2:
+
+                        if(repetir==true && iteradorLista.hasNext()) {
+                            repetir=false;
+                            iteradorLista.next();
+                            numCancion+=1;
+                        }else if(repetir==true && !iteradorLista.hasNext()){
+                            repetir=false;
+                            iteradorLista.previous();
+                            System.out.println("Escuchando " + numCancion + " " + iteradorLista.next());
+                            break;
+                        }
+
+
                         if(repetir==true) {
                             repetir=false;
                             iteradorLista.next();
@@ -121,7 +135,7 @@ if(repetir==true && iteradorLista.hasPrevious()) {
                             numCancion-=1;
                             System.out.println("Escuchando " + numCancion +" "+ iteradorLista.previous());
                         }else {
-                            numCancion=1;
+                            numCancion=0;
                         System.out.println("Esta es la primera canción, no hay anteriores.");
                             haciaAdelante=true;
                         }
@@ -162,19 +176,7 @@ if(repetir==true && iteradorLista.hasPrevious()) {
                 //while
             }
 
-
-
-
-
-
-
-
         //main
     }
-
-
-
-
-
     //class
 }
