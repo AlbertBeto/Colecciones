@@ -169,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677286123148</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="DA errores de uso. Cuando eliminamos una cancion la iteracion parece que queda rota y no sabe cual es el siguiente....">
+      <created>1677458999803</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1677458999803</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -187,19 +194,20 @@
     <MESSAGE value="Ejercicio LinkedList falta el menu" />
     <MESSAGE value="Montando metodo play" />
     <MESSAGE value="Modificaciones en todos los archivos. Solo falta el metodo play.... lo facil." />
-    <option name="LAST_COMMIT_MESSAGE" value="Modificaciones en todos los archivos. Solo falta el metodo play.... lo facil." />
+    <MESSAGE value="DA errores de uso. Cuando eliminamos una cancion la iteracion parece que queda rota y no sabe cual es el siguiente...." />
+    <option name="LAST_COMMIT_MESSAGE" value="DA errores de uso. Cuando eliminamos una cancion la iteracion parece que queda rota y no sabe cual es el siguiente...." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/LinkedList/MainLinkedList.java</url>
-          <line>94</line>
+          <line>101</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/LinkedList/MainLinkedList.java</url>
-          <line>79</line>
+          <line>84</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>

@@ -60,6 +60,7 @@ public class MainLinkedList {
         boolean continuar = true;
         int opcion = 0;
         int numCancion=1;
+        boolean repetir = false;
         boolean haciaAdelante=true;
         Scanner sc = new Scanner(System.in);
         ListIterator<Cancion> iteradorLista = listaReproduccion.listIterator();
@@ -76,23 +77,40 @@ public class MainLinkedList {
                     break;
 
                 case 1:
+if(repetir==true && iteradorLista.hasPrevious()) {
+    repetir=false;
+    iteradorLista.previous();
+    numCancion-=1;
+}else{
+    repetir=false;
+    iteradorLista
+        numCancion-=1;
 
-            if (haciaAdelante==false) {
+}
+    if (haciaAdelante == false) {
 
-                if (iteradorLista.hasNext()){
-                iteradorLista.next();}
-                haciaAdelante=true;
-            }
-                    if (iteradorLista.hasNext()) {
-                        numCancion+=1;
-                System.out.println("Escuchando " + numCancion +" "+ iteradorLista.next());
-            } else {
-                numCancion= listaReproduccion.size();
-                System.out.println("No hay mas canciones a continuación.");
-            }
+        if (iteradorLista.hasNext()) {
+            iteradorLista.next();
+        }
+        haciaAdelante = true;
+    }
+    if (iteradorLista.hasNext()) {
+        numCancion += 1;
+        System.out.println("Escuchando " + numCancion + " " + iteradorLista.next());
+    } else {
+        numCancion = listaReproduccion.size();
+        System.out.println("No hay mas canciones a continuación.");
+    }
+
             break;
 
                     case 2:
+                        if(repetir==true) {
+                            repetir=false;
+                            iteradorLista.next();
+                            numCancion+=1;
+                        }
+
                         if (haciaAdelante==true) {
 
                             if (iteradorLista.hasPrevious()){
@@ -110,7 +128,8 @@ public class MainLinkedList {
                         break;
 
                     case 3:
-                        System.out.println(iteradorLista.getClass());
+                        repetir=true;
+                        System.out.println("La canción se repetirá.");
                         break;
 
                     case 4:
