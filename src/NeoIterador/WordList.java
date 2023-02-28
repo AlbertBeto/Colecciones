@@ -95,7 +95,7 @@ public class WordList {
 
         for (ListIterator<Word> it = words.listIterator();it.hasNext();){
             String word = it.next().getTerm();
-            if((it.hasNext())){
+            if(it.hasNext()){
                 String wordNext = it.next().getTerm();
 
 
