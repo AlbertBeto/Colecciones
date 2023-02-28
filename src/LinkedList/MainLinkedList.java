@@ -157,14 +157,14 @@ if(repetir==true && iteradorLista.hasPrevious()) {
                     case 6:
 
 
-                        if (iteradorLista.hasNext()) {
-                            listaReproduccion.remove(numCancion-1);
+                       /* if (iteradorLista.hasNext()) {
+                            iteradorLista.remove(numCancion-1);
                             System.out.println("Escuchando " + numCancion +" "+ listaReproduccion.get(numCancion-1));
                         } else {
                             listaReproduccion.remove(numCancion-1);
                             System.out.println("Escuchando " + numCancion +" "+ iteradorLista.previous());
                         }
-                        break;
+                        break;*/
 
                     default:
                         System.out.println("Ha introducido un a opción equivocada.");
