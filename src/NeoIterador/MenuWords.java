@@ -9,7 +9,7 @@ public class MenuWords {
 
     public static void menu(){
 
-        System.out.println("0 - Salir\n" + "1 - Imprimir lista");
+        System.out.println("0 - Salir\n" + "1 - Imprimir lista\n" + "2 - añadir palabra\n" + "3 - Borras palabras acabadas con .\n"+"4 - Delete si acaba . siguiente empieza mayuscula");
 
     }
 
@@ -38,9 +38,16 @@ public class MenuWords {
                     break;
 
                 case 3:
+                    words.deleteDotWords();
+                    break;
 
+                case 4:
+                    words.deleteFinalWordWithDot();
 
             }
+
+
+
 
         }while (continuar==true);
 
