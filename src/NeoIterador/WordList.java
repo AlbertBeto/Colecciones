@@ -105,6 +105,8 @@ public class WordList {
                     it.remove(); //borra hola.
                     it.next();
                     it.remove();
+                }else{
+                    it.previous();
                 }
             }
             }
@@ -112,6 +114,53 @@ public class WordList {
 
     }
 
+    //Busco palabra acaba en . y la siguiente no empieza en mayúscula se añade la palabra empezando en mayuscula y
+    //luego elimino la siguiente que es minusculas.
+    // Proceso: hola. mundo --> hola. Mundo mundo --> hola. Mundo
 
-    //class
+    public void deleteFinalWordWithDotNextminus(){
+//
+// Character.isUpperCase(text.charAt(0));
+
+/*
+        for (ListIterator<Word> it = words.listIterator();it.hasNext();){
+            String word = it.next().getTerm();
+            if(it.hasNext()){
+                String wordNext = it.next().getTerm();
+
+
+                if (word.endsWith(".") && !Character.isUpperCase(wordNext.charAt(0))){
+                                        String acambiar=it.previous().getTerm();
+                    String cambiada=acambiar.substring(0,1).toUpperCase();
+                    String cambiadaCompleta=cambiada+acambiar.substring(1);
+                    Word word22 = new Word(cambiada);
+                    it.add(word22);
+                    it.next();
+                    it.remove();
+
+
+                }else{
+                    it.previous();
+                }
+            }
+        }
+
+
+    }
+
+ */
+/*
+        public void deleteFinalWordWithDotNextminus(){
+        for(ListIterator<Word> it = words.listIterator(); it.hasNext();){
+        String word = it.next().getTerm();
+
+        if(it.hasNext()){
+        }
+        }
+*/
+        }
+
+
+
+            //class
 }

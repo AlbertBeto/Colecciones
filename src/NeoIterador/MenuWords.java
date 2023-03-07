@@ -43,6 +43,11 @@ public class MenuWords {
 
                 case 4:
                     words.deleteFinalWordWithDot();
+                    break;
+
+                case 5:
+                    words.deleteFinalWordWithDotNextminus();
+                    break;
 
             }
 
