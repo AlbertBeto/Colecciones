@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24147556-feac-48f2-91fd-9a1b879bf8c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Mapas/Ubicacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mapas/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mapas/MainMapasJuego.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +42,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MainFinal">
+  <component name="RunManager" selected="Application.Mapas.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Colecciones" />
@@ -88,8 +89,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Mapas.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Mapas.Main" />
+      <module name="Colecciones" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Mapas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Mapas.Main" />
         <item itemvalue="Application.MainFinal" />
         <item itemvalue="Application.MainLinkedList" />
         <item itemvalue="Application.MainTelefono" />
@@ -218,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678300983392</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Maps ubicacion Class creada">
+      <created>1678311072528</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1678311072528</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -241,7 +263,8 @@
     <MESSAGE value="SOLUCIONADO EL REPETIR PERO FALLA EL BORRAR, PIERDE EL ORDEN." />
     <MESSAGE value="Creado y finalizado el ejercicio de  Final" />
     <MESSAGE value="Creado y finalizado el ejercicio Final de bloques staticos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creado y finalizado el ejercicio Final de bloques staticos" />
+    <MESSAGE value="Maps ubicacion Class creada" />
+    <option name="LAST_COMMIT_MESSAGE" value="Maps ubicacion Class creada" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
