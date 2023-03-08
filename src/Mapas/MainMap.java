@@ -17,9 +17,9 @@ public class MainMap {
         System.out.println(idiomas.put("fr", "Frances"));
         System.out.println(idiomas.get("de"));
 
-        Map<Word, String>
+        //Map<Word, String>
 
-        for (Map.Entr)
+       // for (Map.Entr)
 
     }
 
