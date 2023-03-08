@@ -13,6 +13,16 @@ public class MainFinal {
         neoPass.iniciarSesion(223344);
         neoPass.iniciarSesion(22334455);
         neoPass.iniciarSesion(1122);
+        System.out.println("");
+        System.out.println("");
+        System.out.println("");
+        System.out.println("");
+        TestFinal testFinal = new TestFinal();
+        testFinal.metodo();
+        System.out.println("Nombre:" + TestFinal.NOMBRE);
+        System.out.println("Valor de mystr" + TestFinal.mystr);
+
+
     }
     //class
 }

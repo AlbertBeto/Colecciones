@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24147556-feac-48f2-91fd-9a1b879bf8c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Final/MainFinal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Final/PasswordAmpliada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Final/TestFinal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Final/Password.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Final/Password.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Mapas/MainMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mapas/MainMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Final/MainFinal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Final/MainFinal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677503978828</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Creado y finalizado el ejercicio de  Final">
+      <created>1678297338424</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1678297338424</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -228,7 +233,8 @@
     <MESSAGE value="DA errores de uso. Cuando eliminamos una cancion la iteracion parece que queda rota y no sabe cual es el siguiente...." />
     <MESSAGE value="Intentando la repeticion pero he entrado en colapso.... me voy a dormir" />
     <MESSAGE value="SOLUCIONADO EL REPETIR PERO FALLA EL BORRAR, PIERDE EL ORDEN." />
-    <option name="LAST_COMMIT_MESSAGE" value="SOLUCIONADO EL REPETIR PERO FALLA EL BORRAR, PIERDE EL ORDEN." />
+    <MESSAGE value="Creado y finalizado el ejercicio de  Final" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creado y finalizado el ejercicio de  Final" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
