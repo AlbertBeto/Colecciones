@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24147556-feac-48f2-91fd-9a1b879bf8c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Final/TestFinal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mapas/Ubicacion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Final/MainFinal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Final/MainFinal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678297338424</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Creado y finalizado el ejercicio Final de bloques staticos">
+      <created>1678300983392</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1678300983392</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -234,7 +240,8 @@
     <MESSAGE value="Intentando la repeticion pero he entrado en colapso.... me voy a dormir" />
     <MESSAGE value="SOLUCIONADO EL REPETIR PERO FALLA EL BORRAR, PIERDE EL ORDEN." />
     <MESSAGE value="Creado y finalizado el ejercicio de  Final" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creado y finalizado el ejercicio de  Final" />
+    <MESSAGE value="Creado y finalizado el ejercicio Final de bloques staticos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creado y finalizado el ejercicio Final de bloques staticos" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
