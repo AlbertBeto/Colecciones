@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24147556-feac-48f2-91fd-9a1b879bf8c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Mapas/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mapas/MainMapasJuego.java" afterDir="false" />
+    <list default="true" id="24147556-feac-48f2-91fd-9a1b879bf8c2" name="Changes" comment="Vamos a por el menu en el main de Maps">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mapas/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mapas/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -240,7 +239,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678311072528</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Avanzando en el map">
+      <created>1678318186665</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1678318186665</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Vamos a por el menu en el main de Maps">
+      <created>1678318512185</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1678318512185</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -264,7 +277,9 @@
     <MESSAGE value="Creado y finalizado el ejercicio de  Final" />
     <MESSAGE value="Creado y finalizado el ejercicio Final de bloques staticos" />
     <MESSAGE value="Maps ubicacion Class creada" />
-    <option name="LAST_COMMIT_MESSAGE" value="Maps ubicacion Class creada" />
+    <MESSAGE value="Avanzando en el map" />
+    <MESSAGE value="Vamos a por el menu en el main de Maps" />
+    <option name="LAST_COMMIT_MESSAGE" value="Vamos a por el menu en el main de Maps" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
