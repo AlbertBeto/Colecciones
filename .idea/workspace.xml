@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24147556-feac-48f2-91fd-9a1b879bf8c2" name="Changes" comment="Vamos a por el menu en el main de Maps">
+    <list default="true" id="24147556-feac-48f2-91fd-9a1b879bf8c2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Set/CuerpoCeleste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Set/Luna.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Set/Planeta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Set/PlanetaEnano.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Mapas/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mapas/Main.java" afterDir="false" />
     </list>
@@ -253,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678318512185</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Realizado el ejercicio falta solucionar la impresion completa de las opciones.">
+      <created>1678321732682</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1678321732682</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -279,7 +290,8 @@
     <MESSAGE value="Maps ubicacion Class creada" />
     <MESSAGE value="Avanzando en el map" />
     <MESSAGE value="Vamos a por el menu en el main de Maps" />
-    <option name="LAST_COMMIT_MESSAGE" value="Vamos a por el menu en el main de Maps" />
+    <MESSAGE value="Realizado el ejercicio falta solucionar la impresion completa de las opciones." />
+    <option name="LAST_COMMIT_MESSAGE" value="Realizado el ejercicio falta solucionar la impresion completa de las opciones." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
