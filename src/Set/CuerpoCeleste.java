@@ -19,7 +19,7 @@ public class CuerpoCeleste {
         this.nombre = nombre;
         this.periodoOrbital = periodoOrbital;
         this.tipoCuerpo = tipoCuerpo;
-        Set satelites = new HashSet();
+        this.satelites = new HashSet();
     }
 
     public String getNombre() {
@@ -36,8 +36,9 @@ public class CuerpoCeleste {
 
     public HashSet<CuerpoCeleste> getSatelites() {
         HashSet alfa = new HashSet<>();
-        alfa = (HashSet) satelites;
-        return alfa;
+       alfa = (HashSet) satelites;
+       return alfa;
+
     }
 
     public boolean addSatelite(CuerpoCeleste crear){
@@ -46,7 +47,7 @@ public class CuerpoCeleste {
             return false;
         }else{
             satelites.add(crear);
-            System.out.println("Se ha añadido el cuerpo celeste"+crear);
+            System.out.println("Se ha añadido el cuerpo celeste"+crear.nombre);
             return true;
         }
     }

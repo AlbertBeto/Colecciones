@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24147556-feac-48f2-91fd-9a1b879bf8c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Set/CuerpoCeleste.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Set/Luna.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Set/Planeta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Set/PlanetaEnano.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Set/MainSet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Mapas/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mapas/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CarroCompra/Cesta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CarroCompra/Cesta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CarroCompra/MainStockList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CarroCompra/MainStockList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CarroCompra/StockList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CarroCompra/StockList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Set/CuerpoCeleste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Set/CuerpoCeleste.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,14 +45,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Mapas.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Colecciones" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MainSet">
     <configuration name="MainFinal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Final.MainFinal" />
       <module name="Colecciones" />
@@ -72,6 +65,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="LinkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Set.MainSet" />
+      <module name="Colecciones" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Set.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainSet" />
         <item itemvalue="Application.Mapas.Main" />
         <item itemvalue="Application.MainFinal" />
         <item itemvalue="Application.MainLinkedList" />
         <item itemvalue="Application.MainTelefono" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -264,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678321732682</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Ejercicio SET hasta el punto 4. El 5 que es el siguiente es el main.">
+      <created>1678574526782</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1678574526782</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -291,7 +304,8 @@
     <MESSAGE value="Avanzando en el map" />
     <MESSAGE value="Vamos a por el menu en el main de Maps" />
     <MESSAGE value="Realizado el ejercicio falta solucionar la impresion completa de las opciones." />
-    <option name="LAST_COMMIT_MESSAGE" value="Realizado el ejercicio falta solucionar la impresion completa de las opciones." />
+    <MESSAGE value="Ejercicio SET hasta el punto 4. El 5 que es el siguiente es el main." />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio SET hasta el punto 4. El 5 que es el siguiente es el main." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

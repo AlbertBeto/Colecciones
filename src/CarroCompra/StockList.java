@@ -2,7 +2,7 @@ package CarroCompra;
 
 import java.util.HashMap;
 import java.util.Map;
-
+/*
 public class StockList {
 
     private Map<String, Articulo> existencias;
@@ -51,3 +51,5 @@ public class StockList {
 
     //class
 }
+
+ */
