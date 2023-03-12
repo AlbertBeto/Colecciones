@@ -17,7 +17,7 @@ package CarroCompra;
  * llamamos al metodo sellItem varias veces, hasta quedarme sin stock.
  *
  */
-/*
+
 public class MainStockList {
 
 private static StockList stockList = new StockList();
@@ -51,8 +51,8 @@ public static int sellItem(Cesta cesta, String nombre, int cantidad){
         sellItem(cesta,"Queso",1);
         sellItem(cesta,"Queso",1);
 // comprobamos qué pasa si no queda algo.
-        sellItem(cesta,"Queso",1);
-
+        sellItem(cesta,"Queso",6);
+        sellItem(cesta,"Vieras",6);
 
         //main
     }
@@ -61,4 +61,3 @@ public static int sellItem(Cesta cesta, String nombre, int cantidad){
 
 //class
 }
-*/
