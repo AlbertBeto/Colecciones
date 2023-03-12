@@ -46,6 +46,7 @@ public class MainSet {
         CuerpoCeleste Luna = new CuerpoCeleste("Luna",27, CuerpoCeleste.TipoCuerpoCeleste.LUNA);
         sistemaSolar.put(Luna.getNombre(), Luna);
         Tierra.addSatelite(Luna);
+
         CuerpoCeleste Deimos = new CuerpoCeleste("Deimos-1",3, CuerpoCeleste.TipoCuerpoCeleste.LUNA);
         CuerpoCeleste Phobos = new CuerpoCeleste("Phobos-0",3, CuerpoCeleste.TipoCuerpoCeleste.LUNA);
         sistemaSolar.put(Deimos.getNombre(), Deimos);
@@ -65,34 +66,43 @@ public class MainSet {
         Jupiter.addSatelite(Europa);
         Jupiter.addSatelite(Ganymedes);
         Jupiter.addSatelite(Callisto);
+
         System.out.println("");
         System.out.println("Los planetas del sistema Solar");
         for (CuerpoCeleste planetas: planetas) {
             System.out.println(planetas.getNombre());
         }
+
         System.out.println("");
         System.out.println("Lunas de Marte");
-
         for(CuerpoCeleste lunasMarte : Marte.getSatelites()){
             System.out.println(lunasMarte.getNombre());
         }
 
-        System.out.println("");
-        System.out.println("Todas las lunas del sistemas Solar.");
-Set<CuerpoCeleste> todasLunas = new HashSet<>();
+
+        Set<CuerpoCeleste> todasLunas = new HashSet<>();
         for (CuerpoCeleste buscandoLunas: planetas) {
             if (buscandoLunas.getSatelites()!=null){
                 for (CuerpoCeleste metiendoLunas : buscandoLunas.getSatelites()) {
                     todasLunas.add(metiendoLunas);
                 }
             }
-
         }
 
+        System.out.println("");
+        System.out.println("Todas las lunas del sistemas Solar.");
         for (CuerpoCeleste luna: todasLunas) {
             System.out.println(luna.getNombre());
         }
 
+        System.out.println("");
+        System.out.println("Probando el toString modificado ");
+        CuerpoCeleste Pluton884 = new CuerpoCeleste("Pluton-884",248, CuerpoCeleste.TipoCuerpoCeleste.PLANETA_ENANO);
+        planetas.add(Pluton884);
+
+        for (CuerpoCeleste planetas: planetas) {
+            System.out.println(planetas.toString());
+        }
 
 
 //main

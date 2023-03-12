@@ -43,11 +43,10 @@ public class CuerpoCeleste {
 
     public boolean addSatelite(CuerpoCeleste crear){
         if (satelites.contains(crear)){
-            System.out.println("Ya existe este cuerpo celeste");
+            System.out.println("No se ha creado ya que existe previamente este cuerpo celeste");
             return false;
         }else{
             satelites.add(crear);
-            System.out.println("Se ha añadido el cuerpo celeste"+crear.nombre);
             return true;
         }
     }

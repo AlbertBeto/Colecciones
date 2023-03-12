@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24147556-feac-48f2-91fd-9a1b879bf8c2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Set/CuerpoCeleste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Set/CuerpoCeleste.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Set/MainSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Set/MainSet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -279,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678584009687</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Vamos a por el 10 de Set">
+      <created>1678584699739</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1678584699739</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -308,7 +317,8 @@
     <MESSAGE value="Realizado el ejercicio falta solucionar la impresion completa de las opciones." />
     <MESSAGE value="Ejercicio SET hasta el punto 4. El 5 que es el siguiente es el main." />
     <MESSAGE value="Avanzando en el main. Ya nos queda menos. Vamos por la VIII" />
-    <option name="LAST_COMMIT_MESSAGE" value="Avanzando en el main. Ya nos queda menos. Vamos por la VIII" />
+    <MESSAGE value="Vamos a por el 10 de Set" />
+    <option name="LAST_COMMIT_MESSAGE" value="Vamos a por el 10 de Set" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
