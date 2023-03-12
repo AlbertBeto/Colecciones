@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24147556-feac-48f2-91fd-9a1b879bf8c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Set/MainSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CarroCompra/Cesta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CarroCompra/Cesta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CarroCompra/MainStockList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CarroCompra/MainStockList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CarroCompra/StockList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CarroCompra/StockList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Set/CuerpoCeleste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Set/CuerpoCeleste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Set/MainSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Set/MainSet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -277,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678574526782</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Avanzando en el main. Ya nos queda menos. Vamos por la VIII">
+      <created>1678584009687</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1678584009687</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -305,7 +307,8 @@
     <MESSAGE value="Vamos a por el menu en el main de Maps" />
     <MESSAGE value="Realizado el ejercicio falta solucionar la impresion completa de las opciones." />
     <MESSAGE value="Ejercicio SET hasta el punto 4. El 5 que es el siguiente es el main." />
-    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio SET hasta el punto 4. El 5 que es el siguiente es el main." />
+    <MESSAGE value="Avanzando en el main. Ya nos queda menos. Vamos por la VIII" />
+    <option name="LAST_COMMIT_MESSAGE" value="Avanzando en el main. Ya nos queda menos. Vamos por la VIII" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

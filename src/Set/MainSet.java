@@ -65,19 +65,33 @@ public class MainSet {
         Jupiter.addSatelite(Europa);
         Jupiter.addSatelite(Ganymedes);
         Jupiter.addSatelite(Callisto);
-
+        System.out.println("");
         System.out.println("Los planetas del sistema Solar");
         for (CuerpoCeleste planetas: planetas) {
             System.out.println(planetas.getNombre());
         }
-
+        System.out.println("");
         System.out.println("Lunas de Marte");
 
         for(CuerpoCeleste lunasMarte : Marte.getSatelites()){
             System.out.println(lunasMarte.getNombre());
         }
 
+        System.out.println("");
+        System.out.println("Todas las lunas del sistemas Solar.");
+Set<CuerpoCeleste> todasLunas = new HashSet<>();
+        for (CuerpoCeleste buscandoLunas: planetas) {
+            if (buscandoLunas.getSatelites()!=null){
+                for (CuerpoCeleste metiendoLunas : buscandoLunas.getSatelites()) {
+                    todasLunas.add(metiendoLunas);
+                }
+            }
 
+        }
+
+        for (CuerpoCeleste luna: todasLunas) {
+            System.out.println(luna.getNombre());
+        }
 
 
 
