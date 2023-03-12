@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="24147556-feac-48f2-91fd-9a1b879bf8c2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Set/CuerpoCeleste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Set/CuerpoCeleste.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Set/MainSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Set/MainSet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -288,12 +287,18 @@
       <option name="project" value="LOCAL" />
       <updated>1678584699739</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="A por el último de Set">
+      <created>1678585975088</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1678585975088</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Inicial" />
     <MESSAGE value="Creados todos los metodos de TelefonoMovil y de contacto." />
     <MESSAGE value="Modificado el constructor del TelefonoMovil para aligerar" />
     <MESSAGE value="Cambio a privado los metodos de busqueda de contactos entro de TelefonoMovil." />
@@ -318,7 +323,8 @@
     <MESSAGE value="Ejercicio SET hasta el punto 4. El 5 que es el siguiente es el main." />
     <MESSAGE value="Avanzando en el main. Ya nos queda menos. Vamos por la VIII" />
     <MESSAGE value="Vamos a por el 10 de Set" />
-    <option name="LAST_COMMIT_MESSAGE" value="Vamos a por el 10 de Set" />
+    <MESSAGE value="A por el último de Set" />
+    <option name="LAST_COMMIT_MESSAGE" value="A por el último de Set" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

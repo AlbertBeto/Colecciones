@@ -104,6 +104,46 @@ public class MainSet {
             System.out.println(planetas.toString());
         }
 
+        System.out.println(" ");
+        System.out.println("Vamos a intentar hacer una intersección ");
+/**
+ * Primeros creamos un SET con los planetas que tienen lunas.
+ * Luego creamos un nuevo SET llamado Interseccion donde copiamos todo el set de planetas.
+ * Luego hacemos el retainall con el SET de planetas con lunas y el SET listado de planetas
+ * y lo imprimimos con un foreach.
+ */
+        Set<CuerpoCeleste> planetasLunas = new HashSet<>();
+        for (CuerpoCeleste alfa: planetas) {
+            if (!alfa.getSatelites().isEmpty()){
+                planetasLunas.add(alfa);
+            }
+        }
+
+        Set<CuerpoCeleste> Interseccion = new HashSet<>();
+
+        Interseccion.addAll(planetas);
+        Interseccion.retainAll(planetasLunas);
+        for (CuerpoCeleste alfa: Interseccion) {
+            System.out.println(alfa.toString());
+        }
+
+
+
+        System.out.println(" ");
+        System.out.println("Vamos a intentar hacer una Diferencia ");
+/**
+ * Creamos un nuevo SET llamado Diferencia donde copiamos todo el set de planetas.
+ * Luego hacemos el removeall de el SET de planetas con lunas quitandolo de el
+ * SET listado de planetas
+ * y lo imprimimos con un foreach.
+ */
+        Set<CuerpoCeleste> Diferencia = new HashSet<>();
+
+        Diferencia.addAll(planetas);
+        Diferencia.removeAll(planetasLunas);
+        for (CuerpoCeleste alfa: Diferencia) {
+            System.out.println(alfa.toString());
+        }
 
 //main
     }
