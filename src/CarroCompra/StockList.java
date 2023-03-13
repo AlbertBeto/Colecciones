@@ -52,6 +52,8 @@ public class StockList {
         return 0;
     }
 
+    // ********************************************************************* //
+    // Reduce el stock.
     public int sellStock(String nombre, int cantidad){
         Articulo a = existencias.get(nombre);
         if (a != null && cantidad > 0 && a.getStock() >= cantidad){
