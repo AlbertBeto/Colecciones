@@ -10,7 +10,6 @@ public static TreeMap<String, String> neoColores = new TreeMap<>();
 
 
 public static void imprimeMap(Map<String,String> alfa){
-
     for (String tree: alfa.keySet()) {
         System.out.println(tree+" --> "+alfa.get(tree));
     }
@@ -40,11 +39,11 @@ public static boolean confirmarKey(String alfa){
         }
     }
 
-    public static void imprimeInverso(TreeMap<String,String> bravo){
-
-
-    }
-
+    public static void imprimeInverso(TreeMap<String,String> bravo) {
+    for (String key: bravo.descendingKeySet()) {
+            System.out.println(key + " -- >"+bravo.get(key));
+        }
+}
 
     static class  SortMyTreeMap implements Comparator<TreeMap<String,String>> {
         @Override
@@ -69,13 +68,18 @@ public static boolean confirmarKey(String alfa){
         return alfa.lastKey();
     }
 
-    /*
-    public static String claveValorMayor(TreeMap<String,String> alfa){
-        alfa.higherKey();
+
+    public static void claveValorMayor(TreeMap<String,String> alfa){
+        String clave = claveUltima(alfa);
+        System.out.println(clave+" --> "+alfa.get(clave));
 
     }
-*/
 
+    public static void claveValorMenor(TreeMap<String,String> alfa){
+        String clave = clavePrimera(alfa);
+        System.out.println(clave+" --> "+alfa.get(clave));
+
+    }
 
 
     public static void main(String[] args) {
@@ -95,10 +99,16 @@ imprimeMap(colores);
 
         System.out.println("");
         System.out.println(clavePrimera(neoColores));
+        System.out.println("");
+        System.out.println("inverso");
+        imprimeInverso(neoColores);
 
-
-
-
+        System.out.println("");
+        System.out.println("Clave con Mayor valor");
+claveValorMayor(neoColores);
+        System.out.println("");
+        System.out.println("Clave con menor valor");
+        claveValorMenor(neoColores);
 
         //main
     }

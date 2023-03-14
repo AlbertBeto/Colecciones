@@ -315,12 +315,18 @@
       <option name="project" value="LOCAL" />
       <updated>1678717921319</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="MapTree hasta donde he llegado. He hecho los ejercicios 1,2,3,4 y 6. El resto se ha flipado.">
+      <created>1678755987561</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1678755987561</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Creado menus, while y switch hasta 2. Confirmado el add de contactos. Corregido los metodos de add para que no permita repetidos de nombre." />
     <MESSAGE value="TRabajando en actualizar contacto pero me quedo dormido delante el teclado. A dormir!!!" />
     <MESSAGE value="Actualizar Contacto acabado" />
     <MESSAGE value="Borrar contacto realizado" />
@@ -345,7 +351,8 @@
     <MESSAGE value="Acabado los ejercicios SET" />
     <MESSAGE value="Carro de la compra basico completo" />
     <MESSAGE value="Carro de la compra basico minimamente modificado" />
-    <option name="LAST_COMMIT_MESSAGE" value="Carro de la compra basico minimamente modificado" />
+    <MESSAGE value="MapTree hasta donde he llegado. He hecho los ejercicios 1,2,3,4 y 6. El resto se ha flipado." />
+    <option name="LAST_COMMIT_MESSAGE" value="MapTree hasta donde he llegado. He hecho los ejercicios 1,2,3,4 y 6. El resto se ha flipado." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -362,7 +369,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/MapTree/MyTreeMap.java</url>
-          <line>90</line>
+          <line>94</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
