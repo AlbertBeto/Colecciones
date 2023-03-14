@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="24147556-feac-48f2-91fd-9a1b879bf8c2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CarroCompra/Articulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CarroCompra/Articulo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CarroCompra/Cesta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CarroCompra/Cesta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CarroCompra/MainStockList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CarroCompra/MainStockList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CarroCompra/StockList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CarroCompra/StockList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MapTree/MyTreeMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MapTree/MyTreeMap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,26 +41,13 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MainStockList">
+  <component name="RunManager" selected="Application.MyTreeMap">
     <configuration name="MainFinal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Final.MainFinal" />
       <module name="Colecciones" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Final.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList.MainLinkedList" />
-      <module name="Colecciones" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,13 +94,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyTreeMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MapTree.MyTreeMap" />
+      <module name="Colecciones" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MapTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyTreeMap" />
         <item itemvalue="Application.MainStockList" />
         <item itemvalue="Application.MainSet" />
         <item itemvalue="Application.Mapas.Main" />
         <item itemvalue="Application.MainFinal" />
-        <item itemvalue="Application.MainLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -311,12 +308,18 @@
       <option name="project" value="LOCAL" />
       <updated>1678645544227</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Carro de la compra basico minimamente modificado">
+      <created>1678717921319</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1678717921319</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Cambio a privado los metodos de busqueda de contactos entro de TelefonoMovil." />
     <MESSAGE value="Creado menus, while y switch hasta 2. Confirmado el add de contactos. Corregido los metodos de add para que no permita repetidos de nombre." />
     <MESSAGE value="TRabajando en actualizar contacto pero me quedo dormido delante el teclado. A dormir!!!" />
     <MESSAGE value="Actualizar Contacto acabado" />
@@ -341,7 +344,8 @@
     <MESSAGE value="A por el último de Set" />
     <MESSAGE value="Acabado los ejercicios SET" />
     <MESSAGE value="Carro de la compra basico completo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Carro de la compra basico completo" />
+    <MESSAGE value="Carro de la compra basico minimamente modificado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Carro de la compra basico minimamente modificado" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -355,6 +359,11 @@
           <url>file://$PROJECT_DIR$/src/LinkedList/MainLinkedList.java</url>
           <line>90</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MapTree/MyTreeMap.java</url>
+          <line>90</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

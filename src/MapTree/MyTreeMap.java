@@ -1,22 +1,23 @@
 package MapTree;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.TreeMap;
+import java.util.*;
 
 public class MyTreeMap {
 
 public static Map<String, String> colores = new HashMap<>();
 
-public static void imprimeMap(){
+public static TreeMap<String, String> neoColores = new TreeMap<>();
 
-    for (String tree: colores.keySet()) {
-        System.out.println(tree+" --> "+colores.get(tree));
+
+public static void imprimeMap(Map<String,String> alfa){
+
+    for (String tree: alfa.keySet()) {
+        System.out.println(tree+" --> "+alfa.get(tree));
     }
 }
 
 public static void copiaTreeMap(TreeMap<String,String> alfa){
-    colores.putAll(alfa);
+    alfa.putAll(colores);
 }
 
 public static boolean confirmarKey(String alfa){
@@ -39,6 +40,42 @@ public static boolean confirmarKey(String alfa){
         }
     }
 
+    public static void imprimeInverso(TreeMap<String,String> bravo){
+
+
+    }
+
+
+    static class  SortMyTreeMap implements Comparator<TreeMap<String,String>> {
+        @Override
+        public int compare(TreeMap<String, String> o1, TreeMap<String, String> o2) {
+            return 0;
+        }
+    }
+
+    /*
+    static void giradorTree (TreeMap<String,String> alfa){
+       // TreeMap<String, String> comp = (TreeMap<String, String>) alfa.comparator();
+    //imprimeTree(comp);
+    }
+    */
+
+
+    public static String clavePrimera(TreeMap<String,String> alfa){
+        return alfa.firstKey();
+    }
+
+    public static String claveUltima(TreeMap<String,String> alfa){
+        return alfa.lastKey();
+    }
+
+    /*
+    public static String claveValorMayor(TreeMap<String,String> alfa){
+        alfa.higherKey();
+
+    }
+*/
+
 
 
     public static void main(String[] args) {
@@ -48,7 +85,21 @@ public static boolean confirmarKey(String alfa){
         colores.put("C4","Blanco");
         colores.put("C5","Negro");
 
-imprimeMap();
+imprimeMap(colores);
+
+
+        copiaTreeMap(neoColores);
+        System.out.println(" ");
+        imprimeMap(neoColores);
+
+
+        System.out.println("");
+        System.out.println(clavePrimera(neoColores));
+
+
+
+
+
         //main
     }
 
